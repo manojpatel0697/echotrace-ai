@@ -1,1 +1,12 @@
-{}
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "echotrace-ai/frontend/package.json",
+      "use": "@vercel/next",
+      "config": {
+        "rootDirectory": "echotrace-ai/frontend"
+      }
+    }
+  ]
+}
