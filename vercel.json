@@ -1,6 +1,15 @@
 {
-  "buildCommand": "cd echotrace-ai/frontend && npm install && npm run build",
-  "outputDirectory": "echotrace-ai/frontend/.next",
-  "installCommand": "cd echotrace-ai/frontend && npm install",
-  "framework": "nextjs"
+  "version": 2,
+  "builds": [
+    {
+      "src": "echotrace-ai/frontend/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "echotrace-ai/frontend/$1"
+    }
+  ]
 }
