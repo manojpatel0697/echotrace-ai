@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "echotrace-ai/frontend/package.json",
-      "use": "@vercel/next",
-      "config": {
-        "rootDirectory": "echotrace-ai/frontend"
-      }
-    }
-  ]
+  "rootDirectory": "echotrace-ai/frontend",
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install"
 }
