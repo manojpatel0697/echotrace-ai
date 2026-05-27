@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd echotrace-ai/frontend && npm install && npm run build",
+  "outputDirectory": "echotrace-ai/frontend/.next",
+  "installCommand": "cd echotrace-ai/frontend && npm install",
+  "framework": "nextjs"
+}
