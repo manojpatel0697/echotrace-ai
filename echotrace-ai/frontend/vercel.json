@@ -1,6 +1,4 @@
 {
-  "version": 2,
-  "rootDirectory": "echotrace-ai/frontend",
   "framework": "nextjs",
   "buildCommand": "next build",
   "outputDirectory": ".next",
